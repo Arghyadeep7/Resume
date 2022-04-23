@@ -1,0 +1,40 @@
+.header{
+    margin: 15px;
+    font-size: 40px;
+    font-weight: 900;
+    color: red;
+}
+
+.fixed{
+    margin: 0 0 0 15px;
+}
+
+.blink{
+    animation: blinker 1s linear infinite;
+}
+  
+@keyframes blinker {
+    50% {
+        opacity: 30%;
+    }
+}
+
+.h-text{
+    color: red;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:767px){
+    .large{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .small{
+        display: none;
+    }
+    .fixed{
+        margin: 18px 20px 0 5px;
+    }
+}
