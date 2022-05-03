@@ -6,7 +6,7 @@ const Projects = () => {
       <h1>PROJECTS</h1>
       <div className="container-fluid" style={{color: "black"}}>
         <div className="row">
-          <div className="col-md-6 mb-3">
+          <div className="col-sm-6 mb-3">
             <div class="card" style={{border:"5px solid red"}}>
               <img src="/assets/Portfolio.png" class="card-img-top" alt="..."/>
               <div class="card-body">
@@ -24,7 +24,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 mb-3">
+          <div className="col-sm-6 mb-3">
             <div class="card" style={{border:"5px solid red"}}>
               <img src="/assets/Simon_Game.png" class="card-img-top" alt="..."/>
               <div class="card-body">
@@ -42,7 +42,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 mb-3">
+          <div className="col-sm-6 mb-3">
             <div class="card" style={{border:"5px solid red"}}>
               <img src="/assets/Expenses.png" class="card-img-top" alt="..."/>
               <div class="card-body">
@@ -60,7 +60,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 mb-3">
+          <div className="col-sm-6 mb-3">
             <div class="card" style={{border:"5px solid red"}}>
               <img src="/assets/To-Do-List.png" class="card-img-top" alt="..."/>
               <div class="card-body">
