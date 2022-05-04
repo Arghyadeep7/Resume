@@ -42,6 +42,8 @@ const Projects = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="row">
           <div className="col-sm-6 mb-3">
             <div class="card" style={{border:"5px solid red"}}>
               <img src="/assets/Expenses.png" class="card-img-top" alt="..."/>
@@ -71,7 +73,6 @@ const Projects = () => {
                     <li>Javascript</li>
                     <li>EJS</li>
                     <li>CSS</li>
-                    <li>Nodejs</li>
                     <li>Expressjs</li>
                     <li>MongoDB</li>
                   </ul>

@@ -85,7 +85,6 @@ const Skills = () => {
         </div>
         </Carousel.Item>
       </Carousel>
-      *Use the carousel to see the slides
     </div>
   );
 };
