@@ -20,6 +20,8 @@ const Projects = () => {
                     <li>Bootstrap</li>
                     <li>Reactstrap</li>
                   </ul>
+                  <a href="https://arghya-deep-pal-resume.vercel.app/" target="_blank">Website Link</a><br />
+                  Repository Link : Private
                 </p>
               </div>
             </div>
