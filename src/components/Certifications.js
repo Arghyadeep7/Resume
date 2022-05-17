@@ -6,6 +6,20 @@ const Certificates = () => {
       <h1>CERTIFICATIONS</h1>
       <div style={{textAlign: "left", border:"7px solid red"}} >
         <div class="list-group">
+          <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/QZHU3SGKZE4P" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">FULL-STACK WEB DEVELOPMENT WITH REACT</h4>
+              <small style={{color:"blue"}}><i class="fa-regular fa-copyright"></i> Coursera</small>
+            </div>
+            <p class="mb-1">Issued - May 2022</p>
+          </a>
+          <a href="https://www.coursera.org/account/accomplishments/certificate/PWJJ7W4W6BEV" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Server-side Development with NodeJS, Express & MongoDB</h4>
+              <small style={{color:"blue"}}><i class="fa-regular fa-copyright"></i> Coursera</small>
+            </div>
+            <p class="mb-1">Issued - May 2022</p>
+          </a>
           <a href="https://www.coursera.org/account/accomplishments/certificate/7B4PJZGCEQJX" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
             <div class="d-flex w-100 justify-content-between">
               <h4 class="mb-1">Front-End Web Development with React</h4>

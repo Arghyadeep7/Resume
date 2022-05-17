@@ -87,7 +87,7 @@ const Header = () => {
             <Contact />
           </div>
           <div className="blink" style={{margin:"2% auto"}}>
-            <a href="/assets/Resume.pdf" style={{color:"red", textDecoration:"none"}} download>
+            <a href="/assets/Arghya_Deep_Pal.pdf" style={{color:"red", textDecoration:"none"}} download>
               <i class="fa-solid fa-circle-arrow-down fa-2x"></i><br/>
               RESUME
             </a>
@@ -100,7 +100,7 @@ const Header = () => {
             ARGHYA DEEP PAL
           </div>
           <div className="blink fixed" >
-            <a href="/assets/Resume.pdf" style={{color:"red", textDecoration:"none"}} download>
+            <a href="/assets/Arghya_Deep_Pal.pdf" style={{color:"red", textDecoration:"none"}} download>
               <i class="fa-solid fa-circle-arrow-down fa-2x"></i><br/>
               RESUME
             </a>
