@@ -4,8 +4,9 @@ import Skills from "./Skills";
 import Certifications from "./Certifications";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Profiles from "./Profiles";
 
-import "./Header.css";
+import "./Main.css";
 
 const Header = () => {
 
@@ -84,6 +85,7 @@ const Header = () => {
             <Projects />
           </div>
           <div id="contact-sm">
+            <Profiles />
             <Contact />
           </div>
           <div className="blink" style={{margin:"2% auto"}}>
@@ -196,23 +198,6 @@ const Header = () => {
               </div>
             </button>
           </li>
-          {/* <li class="nav-item" role="presentation">
-            <button
-              class="nav-link"
-              id="contact-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#contact"
-              type="button"
-              role="tab"
-              aria-controls="contact"
-              aria-selected="false"
-               
-            >
-              <div className="h-text">
-                <i class="fa-regular fa-id-badge"></i> CONTACT
-              </div>
-            </button>
-          </li> */}
         </ul>
         <div class="tab-content" id="myTabContent">
           <div
@@ -225,6 +210,7 @@ const Header = () => {
             <Skills />
             <Certifications />
             <Projects />
+            <Profiles />
             <Contact />
           </div>
           <div
@@ -258,14 +244,6 @@ const Header = () => {
             aria-labelledby="projects-tab"
           >
             <Projects />
-          </div>
-          <div
-            class="tab-pane fade"
-            id="contact"
-            role="tabpanel"
-            aria-labelledby="contact-tab"
-          >
-            <Contact />
           </div>
         </div>
       </div>
