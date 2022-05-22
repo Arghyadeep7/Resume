@@ -55,7 +55,7 @@ const Contact = () => {
           </button>
         }
         {!loading && 
-          <button type="submit" className="btn btn-primary btn-lg">SUBMIT</button>
+          <button type="submit" className="btn btn-primary btn-lg"><i class="fa-brands fa-telegram"></i> SEND</button>
         }
       </form>
     </div>
