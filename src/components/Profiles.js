@@ -2,7 +2,7 @@
 
 const Profiles=()=>{
     return (
-        <div>
+        <div style={{ margin: "5% auto"}}>
             <h1>PROFILES</h1>
             <div className="row">
                 <div className="col-6 col-md-3 mb-3">
@@ -27,7 +27,7 @@ const Profiles=()=>{
                 </div>
             </div>
             <div className="row">
-                <div className="col">
+                <div className="col mb-3">
                     <button className="btn btn-lg btn-primary">
                         <a href="https://www.linkedin.com/in/arghya-deep-pal7/" target="_blank" style={{textDecoration: "none",color:"white"}}>Connect with me on <i class="fa-brands fa-linkedin"></i></a>
                     </button>
