@@ -8,28 +8,28 @@ const Certificates = () => {
         <div class="list-group">
           <a href="https://www.coursera.org/account/accomplishments/certificate/95B9947SM8V3" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
             <div class="d-flex w-100 justify-content-between">
-              <h4 class="mb-1">What is Data Science?-IBM</h4>
+              <h4 class="mb-1">What is Data Science? - IBM</h4>
               <small style={{color:"blue"}}><i class="fa-regular fa-copyright"></i> Coursera</small>
             </div>
             <p class="mb-1">Issued - May 2022</p>
           </a>
           <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/QZHU3SGKZE4P" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
             <div class="d-flex w-100 justify-content-between">
-              <h4 class="mb-1">Full-stack web development [SPECIALISATION]</h4>
+              <h4 class="mb-1">Full-Stack Web Development [SPECIALISATION]</h4>
               <small style={{color:"blue"}}><i class="fa-regular fa-copyright"></i> Coursera</small>
             </div>
             <p class="mb-1">Issued - May 2022</p>
           </a>
           <a href="https://www.coursera.org/account/accomplishments/certificate/PWJJ7W4W6BEV" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
             <div class="d-flex w-100 justify-content-between">
-              <h4 class="mb-1">Server-side Development with NodeJS, Express & MongoDB</h4>
+              <h4 class="mb-1">Server-side Development</h4>
               <small style={{color:"blue"}}><i class="fa-regular fa-copyright"></i> Coursera</small>
             </div>
             <p class="mb-1">Issued - May 2022</p>
           </a>
           <a href="https://www.coursera.org/account/accomplishments/certificate/7B4PJZGCEQJX" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
             <div class="d-flex w-100 justify-content-between">
-              <h4 class="mb-1">Front-End Web Development with React</h4>
+              <h4 class="mb-1">Front-End Web Development</h4>
               <small style={{color:"blue"}}><i class="fa-regular fa-copyright"></i> Coursera</small>
             </div>
             <p class="mb-1">Issued - Mar 2022</p>
@@ -92,7 +92,7 @@ const Certificates = () => {
           </a>
           <a href="https://www.coursera.org/account/accomplishments/certificate/J427MF47RQZS" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
             <div class="d-flex w-100 justify-content-between">
-              <h4 class="mb-1">Crash Course on Python-Google</h4>
+              <h4 class="mb-1">Crash Course on Python - Google</h4>
               <small style={{color:"blue"}}><i class="fa-regular fa-copyright"></i> Coursera</small>
             </div>
             <p class="mb-1">Issued - Jun 2021</p>
