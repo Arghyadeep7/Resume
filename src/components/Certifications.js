@@ -6,9 +6,16 @@ const Certificates = () => {
       <h1>CERTIFICATIONS</h1>
       <div style={{textAlign: "left", border:"7px solid red"}} >
         <div class="list-group">
+          <a href="https://www.coursera.org/account/accomplishments/certificate/95B9947SM8V3" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">What is Data Science?-IBM</h4>
+              <small style={{color:"blue"}}><i class="fa-regular fa-copyright"></i> Coursera</small>
+            </div>
+            <p class="mb-1">Issued - May 2022</p>
+          </a>
           <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/QZHU3SGKZE4P" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
             <div class="d-flex w-100 justify-content-between">
-              <h4 class="mb-1">FULL-STACK WEB DEVELOPMENT WITH REACT</h4>
+              <h4 class="mb-1">Full-stack web development [SPECIALISATION]</h4>
               <small style={{color:"blue"}}><i class="fa-regular fa-copyright"></i> Coursera</small>
             </div>
             <p class="mb-1">Issued - May 2022</p>
@@ -85,7 +92,7 @@ const Certificates = () => {
           </a>
           <a href="https://www.coursera.org/account/accomplishments/certificate/J427MF47RQZS" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
             <div class="d-flex w-100 justify-content-between">
-              <h4 class="mb-1">Crash Course on Python</h4>
+              <h4 class="mb-1">Crash Course on Python-Google</h4>
               <small style={{color:"blue"}}><i class="fa-regular fa-copyright"></i> Coursera</small>
             </div>
             <p class="mb-1">Issued - Jun 2021</p>
