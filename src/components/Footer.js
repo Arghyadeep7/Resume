@@ -15,8 +15,9 @@ const Footer = () => {
         <a href="https://github.com/Arghyadeep7" style={{textDecoration: "none", color:"black"}} target="_blank">
           <i class="fa-brands fa-github fa-2x"></i>
         </a>
-        <div style={{fontSize: "25px", color:"black"}}>
-          Made by <i style={{color:"red"}}>ARGHYA DEEP PAL</i>
+        <div style={{fontSize: "20px", color:"black"}}>
+          Made by <i style={{color:"red"}}>ARGHYA DEEP PAL</i><br/>
+          Reach me at <a href="mailto:ronipal07@gmail.com" target="_blank">ronipal07@gmail.com</a>
         </div>
       </div>
     </div>

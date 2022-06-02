@@ -4,8 +4,15 @@ const Certificates = () => {
   return (
     <div style={{margin:"5% auto"}}>
       <h1>CERTIFICATIONS</h1>
-      <div style={{textAlign: "left", border:"7px solid red"}} >
+      <div style={{textAlign: "left", border:"7px solid red",overflowY:"auto",height:"560px"}} >
         <div class="list-group">
+          <a href="https://www.coursera.org/account/accomplishments/certificate/8YBE75WQJS5Z" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Tools for Data Science - IBM</h4>
+              <small style={{color:"blue"}}><i class="fa-regular fa-copyright"></i> Coursera</small>
+            </div>
+            <p class="mb-1">Issued - Jun 2022</p>
+          </a>
           <a href="https://www.coursera.org/account/accomplishments/certificate/95B9947SM8V3" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
             <div class="d-flex w-100 justify-content-between">
               <h4 class="mb-1">What is Data Science? - IBM</h4>
@@ -15,10 +22,11 @@ const Certificates = () => {
           </a>
           <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/QZHU3SGKZE4P" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
             <div class="d-flex w-100 justify-content-between">
-              <h4 class="mb-1">Full-Stack Web Development [SPECIALISATION]</h4>
+              <h4 class="mb-1">Full-Stack Web Development</h4>
               <small style={{color:"blue"}}><i class="fa-regular fa-copyright"></i> Coursera</small>
             </div>
             <p class="mb-1">Issued - May 2022</p>
+            <p class="mb-1">[SPECIALISATION]</p>
           </a>
           <a href="https://www.coursera.org/account/accomplishments/certificate/PWJJ7W4W6BEV" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
             <div class="d-flex w-100 justify-content-between">
