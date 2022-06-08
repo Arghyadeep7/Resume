@@ -85,7 +85,7 @@ const Header = () => {
             <Projects />
           </div>
           <div id="contact-sm">
-            <Profiles />
+            {/* <Profiles /> */}
             <Contact />
           </div>
           <div className="blink" style={{margin:"2% auto"}}>
@@ -210,7 +210,7 @@ const Header = () => {
             <Skills />
             <Certifications />
             <Projects />
-            <Profiles />
+            {/* <Profiles /> */}
             <Contact />
           </div>
           <div
