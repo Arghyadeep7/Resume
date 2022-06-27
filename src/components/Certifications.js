@@ -6,6 +6,20 @@ const Certificates = () => {
       <h1>CERTIFICATIONS</h1>
       <div style={{textAlign: "left", border:"7px solid red",overflowY:"auto",height:"560px"}} >
         <div class="list-group">
+          <a href="https://www.coursera.org/account/accomplishments/certificate/WF6989UWSRXV" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Foundations: Data, Data, Everywhere - Google</h4>
+              <small style={{color:"blue"}}><i class="fa-regular fa-copyright"></i> Coursera</small>
+            </div>
+            <p class="mb-1">Issued - Jun 2022</p>
+          </a>
+          <a href="https://www.coursera.org/account/accomplishments/certificate/M7XKHCZ345W2" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Data Science Methodology - IBM</h4>
+              <small style={{color:"blue"}}><i class="fa-regular fa-copyright"></i> Coursera</small>
+            </div>
+            <p class="mb-1">Issued - Jun 2022</p>
+          </a>
           <a href="https://www.coursera.org/account/accomplishments/certificate/8YBE75WQJS5Z" class="list-group-item list-group-item-action" aria-current="true" target="_blank">
             <div class="d-flex w-100 justify-content-between">
               <h4 class="mb-1">Tools for Data Science - IBM</h4>
