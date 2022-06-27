@@ -13,7 +13,7 @@ const Skills = () => {
           </div>
           <div className="row">
             <div className="col-3">
-              <img src="/assets/C++.png" alt="C++" style={{width:"50%", height:"60%"}} /><br/>C++
+              <img src="/assets/Cpp.png" alt="C++" style={{width:"50%", height:"60%"}} /><br/>C++
             </div>
             <div className="col-3">
               <img src="/assets/C.png" alt="C" style={{width:"50%", height:"60%"}}/><br/>C
