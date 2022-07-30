@@ -1,0 +1,14 @@
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 15px;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0.3;
+    }
+}
