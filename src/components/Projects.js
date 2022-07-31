@@ -1,7 +1,7 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
-
+    
 const Projects=()=>{
 
     const movies=["Movies-1","Movies-2","Movies-3","Movies-4","Movies-5","Movies-6"];
