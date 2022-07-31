@@ -35,8 +35,15 @@ const Certifications=()=>{
                   <ListGroup>
 
                     <ListGroup.Item>
+                      <a href='https://www.coursera.org/account/accomplishments/certificate/6JSZ4EUE4D5X' target='_blank' style={{textDecoration: 'none'}}>
+                        <h5>Ask Questions to make Data-Driven Decisions - Google</h5>
+                        <h6>Issued <i>JUL 2022</i></h6>
+                      </a>
+                    </ListGroup.Item>
+
+                    <ListGroup.Item>
                       <a href='https://www.coursera.org/account/accomplishments/certificate/WF6989UWSRXV' target='_blank' style={{textDecoration: 'none'}}>
-                        <h5>Foundations: Data, Data, Everywhere</h5>
+                        <h5>Foundations: Data, Data, Everywhere - Google</h5>
                         <h6>Issued <i>JUN 2022</i></h6>
                       </a>
                     </ListGroup.Item>
@@ -87,6 +94,13 @@ const Certifications=()=>{
                       <a href='https://www.coursera.org/account/accomplishments/certificate/C24KMVPFLVPB' target='_blank' style={{textDecoration: 'none'}}>
                         <h5>Front-End Web UI Frameworks and Tools : Bootstrap 4</h5>
                         <h6>Issued <i>AUG 2021</i></h6>
+                      </a>
+                    </ListGroup.Item>
+
+                    <ListGroup.Item>
+                      <a href='https://www.coursera.org/account/accomplishments/certificate/VM2EZNJVATPJ' target='_blank' style={{textDecoration: 'none'}}>
+                        <h5>HTML, CSS and Javascript for Web Developers</h5>
+                        <h6>Issued <i>JUL 2022</i></h6>
                       </a>
                     </ListGroup.Item>
 
