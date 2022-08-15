@@ -11,9 +11,9 @@ const Certifications=()=>{
         <h2>CERTIFICATIONS</h2>
         <Tab.Container id="list-group-tabs-example" defaultActiveKey="#coursera">
 
-          <Row style={{marginBottom:'20px'}}>
+          <Row>
 
-            <Col md={4}>
+            <Col md={4} style={{marginBottom:'20px'}}>
 
               <ListGroup style={{border:'3px solid black', borderRadius:'0'}}>
                 <ListGroup.Item action href="#coursera">
