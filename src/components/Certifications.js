@@ -35,6 +35,13 @@ const Certifications=()=>{
                   <ListGroup>
 
                     <ListGroup.Item>
+                      <a href='https://www.coursera.org/account/accomplishments/certificate/KVXQSQX8PHF7' target='_blank' style={{textDecoration: 'none'}}>
+                        <h5>Python for Data Science, AI & Development - IBM</h5>
+                        <h6>Issued <i>OCT 2022</i></h6>
+                      </a>
+                    </ListGroup.Item>
+
+                    <ListGroup.Item>
                       <a href='https://www.coursera.org/account/accomplishments/certificate/6JSZ4EUE4D5X' target='_blank' style={{textDecoration: 'none'}}>
                         <h5>Ask Questions to make Data-Driven Decisions - Google</h5>
                         <h6>Issued <i>JUL 2022</i></h6>
