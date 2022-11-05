@@ -10,7 +10,7 @@ const Education=()=>{
                     <Accordion.Body>
                         <h3>Heritage Institute Of Technology</h3>
                         <h4>2020 - 2024</h4>
-                        <h5>Current CGPA : 9.67</h5>
+                        <h5>Current CGPA : 9.49</h5>
                         <h6><i class="fas fa-map-marker-alt" />&nbsp;Kolkata, West Bengal, India</h6>
                     </Accordion.Body>
                 </Accordion.Item>
