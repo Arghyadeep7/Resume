@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 const Education=()=>{
     return (
         <div style={{marginBottom:'20px'}}>
-            <h2>EDUCATION</h2>
+            <h3>EDUCATION</h3>
             <Accordion defaultActiveKey="0" style={{border:'5px solid black'}}>
                 <Accordion.Item eventKey="0" style={{borderBottom:'3px solid black'}}>
                     <Accordion.Header><h2>B. Tech. (Computer Science & Engineering) [Ongoing]</h2></Accordion.Header>

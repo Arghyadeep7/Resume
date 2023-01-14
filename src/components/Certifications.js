@@ -5,8 +5,8 @@ import Tab from "react-bootstrap/Tab";
 
 const Certifications = () => {
   return (
-    <Row>
-      <h2>CERTIFICATIONS</h2>
+    <Row >
+      <h3>CERTIFICATIONS</h3>
       <Tab.Container id="list-group-tabs-example" defaultActiveKey="#coursera">
         <Row>
           <Col md={4} style={{ marginBottom: "20px" }}>

@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 const Skills = () => {
   return (
     <div style={{marginBottom:'20px'}}>
-        <h2>SKILLS</h2>
+        <h3>SKILLS</h3>
         <Row style={{border:'2px solid black', marginBottom:'10px'}}>
             <h4>PROGRAMMING</h4>
             <Col xs={3} md={2} lg={1} style={{marginBottom:'15px', textAlign:'center'}}>
