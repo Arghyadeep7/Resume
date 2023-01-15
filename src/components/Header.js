@@ -51,7 +51,7 @@ const Header=()=>{
       {
         screenSize.width<950 &&
         <>
-          <Button onClick={handleShow} variant="outline-dark" size="lg"><i class="fa-solid fa-bars fa-lg"></i></Button>
+          <Button onClick={handleShow} variant="outline-dark" ><i class="fa-solid fa-bars fa-lg"></i></Button>
           <Offcanvas show={show} onHide={handleShow} style={{fontWeight: 'bold', textShadow: '1px 1px'}}>
             <Offcanvas.Header closeButton>
               <h2><b>ARGHYA DEEP PAL</b></h2>
