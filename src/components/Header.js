@@ -57,23 +57,23 @@ const Header=()=>{
               <h2><b>ARGHYA DEEP PAL</b></h2>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav.Link className="mb-3" onClick={handleShow}>
-                <Link to="/education" style={{textDecoration:"none"}}>
+              <Nav.Link className="mb-3">
+                <Link to="/education" style={{textDecoration:"none"}} onClick={handleShow}>
                   EDUCATION
                 </Link>
               </Nav.Link>
-              <Nav.Link className="mb-3" onClick={handleShow}>
-                <Link to="/skills" style={{textDecoration:"none"}}>
+              <Nav.Link className="mb-3">
+                <Link to="/skills" style={{textDecoration:"none"}} onClick={handleShow}>
                   SKILLS
                 </Link>
               </Nav.Link>
-              <Nav.Link className="mb-3" onClick={handleShow}>
-                <Link to="/certifications" style={{textDecoration:"none"}}>
+              <Nav.Link className="mb-3">
+                <Link to="/certifications" style={{textDecoration:"none"}} onClick={handleShow}>
                   CERTIFICATIONS
                 </Link>
               </Nav.Link>
-              <Nav.Link className="mb-3" onClick={handleShow}>
-                <Link to="/projects" style={{textDecoration:"none"}}>
+              <Nav.Link className="mb-3">
+                <Link to="/projects" style={{textDecoration:"none"}} onClick={handleShow}>
                   PROJECTS
                 </Link>
               </Nav.Link>
