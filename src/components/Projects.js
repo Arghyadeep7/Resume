@@ -15,7 +15,7 @@ const Projects=()=>{
     return (
         <Row >
             <h3>PROJECTS</h3>
-            <Col lg={6} style={{marginBottom:'30px'}}>
+            <Col lg={6} style={{marginBottom:'40px'}}>
                 <Carousel indicators={false}>
                     {mailIt.map((src)=>(
                         <Carousel.Item style={{border:"2px solid black"}}>
@@ -24,7 +24,7 @@ const Projects=()=>{
                     ))}
                 </Carousel>
             </Col>
-            <Col lg={6} style={{marginBottom:'30px', border:'2px solid black', boxShadow:'5px 5px 3px black'}}>
+            <Col lg={6} style={{marginBottom:'40px', border:'2px solid black', boxShadow:'5px 5px 3px black'}}>
                 <h3>MAIL-IT</h3>
                 <h5>
                     <div style={{display:"flex", justifyContent:"space-between"}}>
@@ -50,7 +50,7 @@ const Projects=()=>{
                 <h5>MongoDb | Express | React | Node | React-Bootstrap | CSS</h5>
             </Col>
             
-            <Col lg={6} style={{marginBottom:'30px'}}>
+            <Col lg={6} style={{marginBottom:'40px'}}>
                 <Carousel indicators={false}>
                     {eHub.map((src)=>(
                         <Carousel.Item style={{border:"2px solid black"}}>
@@ -59,7 +59,7 @@ const Projects=()=>{
                     ))}
                 </Carousel>
             </Col>
-            <Col lg={6} style={{border:'2px solid black', boxShadow:'5px 5px 3px black'}}>
+            <Col lg={6} style={{marginBottom:'40px', border:'2px solid black', boxShadow:'5px 5px 3px black'}}>
                 <h3>E-HUB | Entertainment Hub</h3>
                 <h5>
                     <div style={{display:"flex", justifyContent:"space-between"}}>
@@ -84,13 +84,12 @@ const Projects=()=>{
                     <li>
                         Get similar recommendations
                     </li>
-                    
                 </ul>
                 <h5>React | TMDB API | React-Bootstrap | Axios | CSS</h5>
             </Col>
         
         
-            <Col lg={6} style={{marginTop:'30px'}}>
+            <Col lg={6} style={{marginBottom:'40px'}}>
                 <Carousel indicators={false}>
                     {resume.map((src)=>(
                         <Carousel.Item style={{border:"2px solid black"}}>
@@ -99,7 +98,7 @@ const Projects=()=>{
                     ))}
                 </Carousel>
             </Col>
-            <Col lg={6} style={{marginTop:'30px', border:'2px solid black', boxShadow:'5px 5px 3px black'}}>
+            <Col lg={6} style={{marginBottom:'40px', border:'2px solid black', boxShadow:'5px 5px 3px black'}}>
                 <h3>ONLINE RESUME</h3>
                 <h5>
                     <div style={{display:"flex", justifyContent:"space-between"}}>
@@ -129,7 +128,7 @@ const Projects=()=>{
             </Col>
         
         
-            <Col lg={6} style={{marginTop:'30px'}}>
+            <Col lg={6} style={{marginBottom:'40px'}}>
                 <Carousel indicators={false}>
                     {expensesTracker.map((src)=>(
                         <Carousel.Item style={{border:"2px solid black"}}>
@@ -138,7 +137,7 @@ const Projects=()=>{
                     ))}
                 </Carousel>
             </Col>
-            <Col lg={6} style={{marginTop:'30px', border:'2px solid black', boxShadow:'5px 5px 3px black'}}>
+            <Col lg={6} style={{marginBottom:'40px', border:'2px solid black', boxShadow:'5px 5px 3px black'}}>
                 <h3>EXPENSES-TRACKER</h3>
                 <h5>
                     <div style={{display:"flex", justifyContent:"space-between"}}>
@@ -162,10 +161,10 @@ const Projects=()=>{
             </Col>
 
         
-            <Col lg={6} style={{marginTop:'30px'}}>
+            <Col lg={6} style={{marginBottom:'40px'}}>
                 <img className="d-block w-100" style={{border:"2px solid black"}} src={`/assets/The-Simon-Game.png`} alt="To-Do-List"/>
             </Col>
-            <Col lg={6} style={{marginTop:'30px', border:'2px solid black', boxShadow:'5px 5px 3px black'}}>
+            <Col lg={6} style={{marginBottom:'40px', border:'2px solid black', boxShadow:'5px 5px 3px black'}}>
                 <h3>SIMON GAME</h3>
                 <h5>
                     <div style={{display:"flex", justifyContent:"space-between"}}>
@@ -182,13 +181,13 @@ const Projects=()=>{
                         Start by pressing a key
                     </li>
                     <li>
-                        Press the box which glows
+                        Press the box which blinks
                     </li>
                     <li>
-                        After each level a new box glows
+                        After each level a new box blinks
                     </li>
                     <li>
-                        Thereafter press the last box that glowed after the previous level's sequence of moves.
+                        Thereafter press the last box that blinked after the previous level's sequence of moves.
                     </li>
                     <li>
                         Advance each level by remembering the sequence correctly
