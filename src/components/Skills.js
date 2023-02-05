@@ -3,9 +3,9 @@ import Row from 'react-bootstrap/Row';
 
 const Skills = () => {
   return (
-    <div style={{marginBottom:'20px'}}>
+    <div >
         <h3>SKILLS</h3>
-        <Row style={{border:'2px solid black', marginBottom:'10px'}}>
+        <Row style={{border:'2px solid black', marginBottom:'25px'}}>
             <h4>PROGRAMMING</h4>
             <Col xs={3} md={2} lg={1} style={{marginBottom:'15px', textAlign:'center'}}>
                 <img src="/assets/Cpp.png" alt="C++" className='d-block w-100'></img>
@@ -28,7 +28,7 @@ const Skills = () => {
                 <b>Java</b>
             </Col>
         </Row>
-        <Row style={{border:'2px solid black', marginBottom:'10px'}}>
+        <Row style={{border:'2px solid black', marginBottom:'25px'}}>
             <h4>FRONT-END</h4>
             <Col xs={3} md={2} lg={1} style={{marginBottom:'15px', textAlign:'center'}}>
                 <img src="/assets/Reactjs.png" alt="C++" className='d-block w-100'></img>
@@ -59,7 +59,7 @@ const Skills = () => {
                 <b>Javascript</b>
             </Col>
         </Row>
-        <Row style={{border:'2px solid black', marginBottom:'10px'}}>
+        <Row style={{border:'2px solid black', marginBottom:'25px'}}>
             <h4>BACK-END</h4>
             <Col xs={3} md={2} lg={1} sm={2} style={{marginBottom:'15px', textAlign:'center'}}>
                 <img src="/assets/Nodejs.png" alt="Nodejs" className='d-block w-100'></img>
