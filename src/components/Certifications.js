@@ -36,6 +36,19 @@ const Certifications = () => {
                 <ListGroup>
                   <ListGroup.Item>
                     <a
+                      href="https://www.coursera.org/account/accomplishments/certificate/6CG24UFARVSW"
+                      target="_blank"
+                      style={{ textDecoration: "none" }}
+                    >
+                      <h5>Process Data from Dirty to Clean - Google</h5>
+                      <h6>
+                        Issued <i>FEB 2023</i>
+                      </h6>
+                    </a>
+                  </ListGroup.Item>
+
+                  <ListGroup.Item>
+                    <a
                       href="https://www.coursera.org/account/accomplishments/certificate/AJRCZKGUPTY8"
                       target="_blank"
                       style={{ textDecoration: "none" }}
