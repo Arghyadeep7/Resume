@@ -41,7 +41,7 @@ const Header=()=>{
     <Navbar collapseOnSelect expand="lg" style={{fontWeight: 'bold', textShadow: '1px 1px', margin:"10px auto", backgroundColor:"white"}} sticky="top" >
       <div style={{display:'flex'}}>
         <h2 style={{marginTop:"5px"}}>ARGHYA DEEP PAL</h2>
-        <a href="/assets/Resume.pdf" download style={{textDecoration: 'none', color: 'red'}}>
+        <a href="/assets/Arghya Deep Pal.pdf" download style={{textDecoration: 'none', color: 'red'}}>
           <div className={styles.resume}>
             <i class="fas fa-file-download fa-2x"></i>
             <span>RESUME</span>
