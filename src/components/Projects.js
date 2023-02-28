@@ -29,7 +29,7 @@ const Projects=()=>{
                 <h5>
                     <div style={{display:"flex", justifyContent:"space-between"}}>
                         <a href="https://mail-it.vercel.app/" style={{textDecoration:'none'}} target="_blank"><i class="fas fa-code"></i>&nbsp;Website Link</a>
-                        <span><i class="fab fa-github"></i>&nbsp;Private Repo</span>
+                        <a href="https://github.com/Arghyadeep7/mail-it" style={{textDecoration:'none'}} target="_blank"><i class="fab fa-github"></i>&nbsp;Repo Link</a>
                     </div>
                 </h5>
                 <h6>Very easy and user friendly mailing app!</h6>
@@ -64,7 +64,7 @@ const Projects=()=>{
                 <h5>
                     <div style={{display:"flex", justifyContent:"space-between"}}>
                         <a href="https://e-hub.vercel.app/" style={{textDecoration:'none'}} target="_blank"><i class="fas fa-code"></i>&nbsp;Website Link</a>
-                        <span><i class="fab fa-github"></i>&nbsp;Private Repo</span>
+                        <a href="https://github.com/Arghyadeep7/E-Hub" style={{textDecoration:'none'}} target="_blank"><i class="fab fa-github"></i>&nbsp;Repo Link</a>
                     </div>
                 </h5>
                 <h6>Your one destination for all Movies & TV/Web Series</h6>
