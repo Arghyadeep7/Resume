@@ -73,7 +73,7 @@ const Projects=()=>{
                         Filter by: Now Playing, Upcoming, Trending, Popular and Top Rated
                     </li>
                     <li>
-                        Search and movie and/or TV/Web Series
+                        Search any movie and/or TV/Web Series
                     </li>
                     <li>
                         Get all details of any movie, any season of any TV/Web Series
