@@ -145,7 +145,7 @@ const Projects=()=>{
                         <a href="https://github.com/Arghyadeep7/Expenses" style={{textDecoration:'none'}} target="_blank"><i class="fab fa-github"></i>&nbsp;Repo Link</a>
                     </div>
                 </h5>
-                <h6>Online Resume | Accessible from anywhere</h6>
+                    <h6>User friendly and easy to manage expense tracke</h6>
                 <ul>
                     <li>
                         Track day-day, month-month, year-year expenses
