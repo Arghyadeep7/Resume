@@ -31,7 +31,7 @@ const Header=()=>{
     window.addEventListener('resize', setDimension);
     
     return(() => {
-        window.removeEventListener('resize', setDimension);
+      window.removeEventListener('resize', setDimension);
     })
   }, [screenSize])
 
@@ -40,7 +40,9 @@ const Header=()=>{
   return (
     <Navbar collapseOnSelect expand="lg" style={{fontWeight: 'bold', textShadow: '1px 1px', margin:"10px auto", backgroundColor:"white"}} sticky="top" >
       <div style={{display:'flex'}}>
-        <h2 style={{marginTop:"5px"}}>ARGHYA DEEP PAL</h2>
+        <Link to="/education" style={{textDecoration:"none", color:"black"}}>
+          <h2 style={{marginTop:"5px"}}>ARGHYA DEEP PAL</h2>
+        </Link>
         <a href="/assets/Arghya Deep Pal.pdf" download style={{textDecoration: 'none', color: 'red'}}>
           <div className={styles.resume}>
             <i class="fas fa-file-download fa-2x"></i>
@@ -54,7 +56,9 @@ const Header=()=>{
           <Button onClick={handleShow} variant="outline-dark" ><i class="fa-solid fa-bars fa-lg"></i></Button>
           <Offcanvas show={show} onHide={handleShow} style={{fontWeight: 'bold', textShadow: '1px 1px'}}>
             <Offcanvas.Header closeButton>
-              <h2><b>ARGHYA DEEP PAL</b></h2>
+              <Link to="/education" style={{textDecoration:"none", color:"black"}} onClick={handleShow}>
+                <h2><b>ARGHYA DEEP PAL</b></h2>
+              </Link>
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav.Link className="mb-3">
