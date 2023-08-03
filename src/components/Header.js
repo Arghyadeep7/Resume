@@ -64,15 +64,15 @@ const Header=()=>{
 
                     <NavDropdown title="CONTACT" id="navbarScrollingDropdown" className={styles.tab} style={{marginRight: "0"}}>
                         <NavDropdown.Item href="https://www.linkedin.com/in/arghya-deep-pal7" target="_blank" style={{color:"blue"}}>
-                        <i class="fab fa-linkedin fa-lg"></i>&nbsp;&nbsp;LINKEDIN
+                            <i class="fab fa-linkedin fa-lg"></i>&nbsp;&nbsp;LINKEDIN
                         </NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="https://github.com/Arghyadeep7" target="_blank" style={{color:"black"}}>
-                        <i class="fab fa-github fa-lg"></i>&nbsp;&nbsp;GITHUB
+                            <i class="fab fa-github fa-lg"></i>&nbsp;&nbsp;GITHUB
                         </NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="mailto:ronipal07@gmail.com" target="_blank" style={{color:"red"}}>
-                        <i class="fa-solid fa-envelope fa-lg"></i>&nbsp;&nbsp;MAIL ME
+                        <NavDropdown.Item href="mailto:arghyadeep100@gmail.com" target="_blank" style={{color:"red"}}>
+                            <i class="fa-solid fa-envelope fa-lg"></i>&nbsp;&nbsp;MAIL ME
                         </NavDropdown.Item>
                     </NavDropdown>
                 </>
@@ -85,7 +85,7 @@ const Header=()=>{
                     <Offcanvas show={show} onHide={handleShow}>
                         <Offcanvas.Header closeButton>
                             <Link to="/education" className={styles.header} onClick={handleShow}>
-                                <h2><b>ARGHYA DEEP PAL</b></h2>
+                                <h2>ARGHYA DEEP PAL</h2>
                             </Link>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
