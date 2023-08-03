@@ -7,7 +7,7 @@ const Internships = () => {
             INTERNSHIPS
         </h3>
 
-        <Col xs={6} md={3} className="mb-4">
+        <Col md={6} lg={3} className="mb-4">
             <Card >
                 <Card.Body>
                     <Card.Title>Pro GenX</Card.Title>
@@ -44,7 +44,7 @@ const Internships = () => {
         </Col>
 
         
-        <Col xs={6} md={3} className="mb-4">
+        <Col md={6} lg={3} className="mb-4">
             <Card >
                 <Card.Body>
                     <Card.Title>CodeClause</Card.Title>
@@ -79,7 +79,7 @@ const Internships = () => {
             </Card>
         </Col>
 
-        <Col xs={6} md={3} className="mb-4">
+        <Col md={6} lg={3} className="mb-4">
             <Card >
                 <Card.Body>
                     <Card.Title>Upskill - Uniconverge Technologies</Card.Title>
@@ -110,7 +110,7 @@ const Internships = () => {
             </Card>
         </Col>
 
-        <Col xs={6} md={3} className="mb-4">
+        <Col md={6} lg={3} className="mb-4">
             <Card >
                 <Card.Body>
                     <Card.Title>LetsGrowMore</Card.Title>
