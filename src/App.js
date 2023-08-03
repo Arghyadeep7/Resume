@@ -2,6 +2,7 @@ import {Routes, Route, Navigate} from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Header from "./components/Header";
 import Education from "./components/Education";
+import Internships from "./components/Internships";
 import Skills from "./components/Skills";
 import Certifications from "./components/Certifications";
 import Projects from "./components/Projects";
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/education" element={<Education />} />
+        <Route path="/internships" element={<Internships />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/certifications" element={<Certifications />} />
         <Route path="/projects" element={<Projects />} />
