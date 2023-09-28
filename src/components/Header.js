@@ -43,7 +43,7 @@ const Header=()=>{
 
             <div className="d-flex">
                 <h2 className={styles.header}>ARGHYA DEEP PAL</h2>
-                <a href="/assets/Arghya Deep Pal.pdf" download style={{textDecoration: 'none', color: 'red'}}>
+                <a href="/assets/Resume.pdf" download style={{textDecoration: 'none', color: 'red'}}>
                     <div className={styles.resume}>
                         <i class="fas fa-file-download fa-2x"></i>
                         <span>RESUME</span>
