@@ -8,7 +8,7 @@ const Projects=()=>{
 
     const eHub=["E-Hub-1", "E-Hub-2", "E-Hub-3", "E-Hub-4", "E-Hub-5", "E-Hub-6", "E-Hub-7", "E-Hub-8", "E-Hub-9", "E-Hub-10", "E-Hub-11", "E-Hub-12"];
 
-    const resume=["Online-Resume-1","Online-Resume-2","Online-Resume-3","Online-Resume-4"];
+    const resume=["Online-Resume-1","Online-Resume-2","Online-Resume-3","Online-Resume-4","Online-Resume-5"];
 
     const expensesTracker=["Expenses-Tracker-1","Expenses-Tracker-2","Expenses-Tracker-3"];
 
@@ -32,7 +32,7 @@ const Projects=()=>{
                         <a href="https://github.com/Arghyadeep7/mail-it" style={{textDecoration:'none'}} target="_blank"><i class="fab fa-github"></i>&nbsp;Repo Link</a>
                     </div>
                 </h5>
-                <h6>Very easy and user friendly mailing app!</h6>
+                <h6>User friendly mailing app!</h6>
                 <ul>
                     <li>
                         Register and login to use the mailing app
